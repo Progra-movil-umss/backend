@@ -1,6 +1,6 @@
 name: User Story
 description: Por favor, use el formato INVEST.
-labels: [ "Hu" ]
+labels: [ "hu" ]
 body:
   - type: textarea
     id: description

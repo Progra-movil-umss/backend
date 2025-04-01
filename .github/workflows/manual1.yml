@@ -1,15 +1,15 @@
-name: Add Issue to Project
+name: Add Bug to Project
 on:
   issues:
     types: [labeled]
 
 jobs:
   add-to-project:
-    name: Add issue to project
+    name: Add bug to project
     runs-on: ubuntu-latest
-    if: github.event.label.name == 'hu'
+    if: github.event.label.name == 'bug'
     steps:
       - uses: actions/add-to-project@v0.4.0
         with:
-          project-url: https://github.com/orgs/Progra-movil-umss/projects/6
+          project-url: https://github.com/orgs/Progra-movil-umss/projects/4
           github-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
