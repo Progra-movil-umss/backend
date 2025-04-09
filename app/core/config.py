@@ -33,6 +33,8 @@ class Settings(BaseSettings):
         extra="ignore",
     )
     FIREBASE_CREDENTIALS_PATH: str 
+    FIREBASE_API_KEY: str
+    FIREBASE_PROJECT_ID: str
     API_V1_STR: str = "/api/v1"
     SECRET_KEY: str = secrets.token_urlsafe(32)
     # 60 minutes * 24 hours * 8 days = 8 days

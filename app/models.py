@@ -90,9 +90,13 @@ class FirebaseInfo(SQLModel):
 
 class FirebaseToken(SQLModel):
     token: str
+    """
+    Token de ID de Firebase obtenido al autenticar al usuario.
+    Este token debe incluirse en el header Authorization para peticiones autenticadas.
+    """
 
 class TokenPayload(SQLModel):
-    sub: str  # firebase_uid
+    sub: str
     email: EmailStr
 
 class UserLogin(SQLModel):
