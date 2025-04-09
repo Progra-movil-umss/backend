@@ -1,1 +1,4 @@
 /.idea
+.env
+/.vscode
+app/credentials/florafind-96f47-firebase-adminsdk-fbsvc-7974c8c583.json
