@@ -1,0 +1,51 @@
+MIME-Version: 1.0
+Content-Type: multipart/related; boundary="boundary"
+
+--boundary
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Bienvenido a Flora Find!</title>
+</head>
+<body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; margin: 0; padding: 0; background-color: #f5f5f5;">
+    <div style="max-width: 600px; margin: 0 auto; padding: 20px; background-color: #ffffff; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+        <div style="text-align: center; padding: 20px 0; background-color: #2e7d32; color: white; border-radius: 10px 10px 0 0;">
+            <h1 style="margin: 0;">¡Bienvenido a Flora Find!</h1>
+        </div>
+        <div style="padding: 20px;">
+            <div style="font-size: 48px; text-align: center; margin: 20px 0; color: #2e7d32;">🌱</div>
+            <h2 style="color: #2e7d32;">¡Tu jardín digital te espera!</h2>
+            <p>Estamos encantados de tenerte en nuestra comunidad de amantes de las plantas. Con Flora Find, podrás:</p>
+            
+            <table style="width: 100%; margin: 30px 0; border-collapse: collapse;">
+                <tr>
+                    <td style="text-align: center; padding: 15px; background-color: #f0f7f0; border-radius: 8px; margin: 10px;">
+                        <h3 style="color: #2e7d32;">📱 Identificar Plantas</h3>
+                        <p>Descubre el nombre y cuidados de cualquier planta con solo una foto</p>
+                    </td>
+                    <td style="text-align: center; padding: 15px; background-color: #f0f7f0; border-radius: 8px; margin: 10px;">
+                        <h3 style="color: #2e7d32;">📅 Recordatorios</h3>
+                        <p>Nunca olvides regar o cuidar tus plantas con nuestras alertas personalizadas</p>
+                    </td>
+                    <td style="text-align: center; padding: 15px; background-color: #f0f7f0; border-radius: 8px; margin: 10px;">
+                        <h3 style="color: #2e7d32;">🌍 Comunidad</h3>
+                        <p>Conecta con otros amantes de las plantas y comparte tus experiencias</p>
+                    </td>
+                </tr>
+            </table>
+
+            <p style="text-align: center; font-size: 18px; color: #2e7d32;">¡Comienza tu viaje botánico hoy mismo!</p>
+        </div>
+        <div style="text-align: center; padding: 20px; color: #666; font-size: 14px;">
+            <p>© 2024 Flora Find - Tu compañero en el cuidado de plantas</p>
+        </div>
+    </div>
+</body>
+</html>
+
+--boundary-- 
